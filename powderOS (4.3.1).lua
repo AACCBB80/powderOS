@@ -1,11 +1,8 @@
 --[[
 
-╔══════════════════════════════╗
-║         ! Warning !          ║▒
-║   powderOS is not secure!    ║▒
-║     Use with caution!        ║▒
-╚══════════════════════════════╝▒
-▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+	Warning:
+		powderOS is not secure!
+		I take no responsibility for any damage caused by powderOS!
 
 ╔══════════════════════════════╗
 ║           Warning            ║▒
