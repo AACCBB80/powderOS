@@ -117,7 +117,7 @@
 
 -- Version Data
 
-powderOSVersion = 4.2
+powderOSVersion = "4.2.1"
 local powderOSBuildReleaseDate = "May 27th, 2024"
 
 --Functions
@@ -632,7 +632,7 @@ local commandArray = {
 	{"ls", lsFunc},
 	{"lua", function() terminalOutput("Use 'exit' to exit Lua mode.") luaMode = 1 end},
 	{"cls", function() terminalText:text("") end},
-	{"about", function() interface.beginMessageBox("About", "powderOS v4.2\n\nv"..powderOSVersion.." Completed "..powderOSBuildReleaseDate..".\n\n'Licensed' to:\n"..tpt.get_name().."\n\nCreated by aaccbb, April 7th, 2024", 1) end},
+	{"about", function() interface.beginMessageBox("About", "powderOS v"..powderOSVersion.."\n\nv"..powderOSVersion.." Completed "..powderOSBuildReleaseDate..".\n\n'Licensed' to:\n"..tpt.get_name().."\n\nCreated by aaccbb, April 7th, 2024", 1) end},
 	{"help", function() terminalOutput("Commands: ls, lua, cls, about, help") end}
 }
 function terminalOutput(a, b)
@@ -996,7 +996,7 @@ updateOS:action(
 local aboutOS = Button:new(0, 300, 90, 15, "\x0F\xFF\xFF\x66 About", "") --  is a power icon
 aboutOS:action(
 	function(sender)
-		interface.beginMessageBox("About", "powderOS v4.2\n\nv"..powderOSVersion.." Completed "..powderOSBuildReleaseDate..".\n\n'Licensed' to:\n"..tpt.get_name().."\n\nCreated by aaccbb, April 7th, 2024", 1)
+		interface.beginMessageBox("About", "powderOS v"..powderOSVersion.."\n\nv"..powderOSVersion.." Completed "..powderOSBuildReleaseDate..".\n\n'Licensed' to:\n"..tpt.get_name().."\n\nCreated by aaccbb, April 7th, 2024", 1)
 	end
 )
 
